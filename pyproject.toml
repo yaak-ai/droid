@@ -22,8 +22,7 @@ dependencies = [
     "matplotlib",
     "mujoco==2.3.2",
     "open3d",
-    "opencv-python==4.6.0.66",
-    "opencv-contrib-python==4.6.0.66",
+    "opencv-contrib-python>=4.10.0.84", # for numpy>=2 compatibility
     "Pillow",
     "protobuf==3.20.1",
     "psutil",
